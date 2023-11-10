@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    volumes:
+      - ../:/src:cached
+    command: sleep infinity
